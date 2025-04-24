@@ -10,9 +10,9 @@
 
 namespace ZfcUserImpersonate\Service;
 
-use Zend\Authentication\Storage\StorageInterface;
-use ZfcUser\Entity\UserInterface;
-use ZfcUser\Service\User as ZfcUserUserService;
+use Laminas\Authentication\Storage\StorageInterface;
+use LmcUser\Entity\UserInterface;
+use LmcUser\Service\User as ZfcUserUserService;
 use ZfcUserImpersonate\Exception\Domain as DomainException;
 use ZfcUserImpersonate\Exception\NotImpersonating as NotImpersonatingException;
 use ZfcUserImpersonate\Exception\UserNotFound as UserNotFoundException;
